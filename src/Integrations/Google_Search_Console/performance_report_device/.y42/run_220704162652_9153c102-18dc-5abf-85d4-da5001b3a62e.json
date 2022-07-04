@@ -1,0 +1,51 @@
+{
+  "request_id": "220704162652_9153c102-18dc-5abf-85d4-da5001b3a62e",
+  "status": "pending",
+  "request": {
+    "source_credentials": "3e65fdd1-a678-459b-993e-9ad6a51216a5",
+    "target_credentials": "4a1dc552-417e-4163-a231-ca417f85363d",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/google-search-console/0.0.0/source.json",
+      "start_date": "2022-01-01T00:00:00Z",
+      "parent_id": "https://www.tandblomst.dk/"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/google-search-console/0.0.0/table",
+      "columns": [
+        "site_url",
+        "search_type",
+        "date",
+        "device",
+        "clicks",
+        "impressions",
+        "ctr",
+        "position"
+      ],
+      "import": "performance_report_device"
+    },
+    "created_at": "2022-07-04T16:26:52.233895+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_Search_Console/performance_report_device/",
+        "id": "5:ac1c4f1b-3812-4c38-abdb-830d82f6c4e5",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_DD010Tim",
+        "commit_sha": "223dd33bbe037f4b9bb085c25a521a1b6668cc90"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "32",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-04T16:26:52.233895+00:00",
+  "_signature": "Kie0jWS21tBTWtjE/vWM4qevYtlIELT4ql3m4TQM2NS3ZODYLjNFt7RPok4++E5dLAAUHrhaR1J/wWorFENhBw=="
+}
