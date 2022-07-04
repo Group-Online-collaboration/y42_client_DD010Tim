@@ -359,7 +359,7 @@
               "description": "",
               "source_alias": "",
               "applied": false,
-              "sourceTypeChanged": false
+              "sourceTypeChanged": true
             },
             {
               "target": "loaded_at",
