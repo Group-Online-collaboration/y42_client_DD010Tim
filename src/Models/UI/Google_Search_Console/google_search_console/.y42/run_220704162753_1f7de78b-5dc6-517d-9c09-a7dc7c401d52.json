@@ -1,6 +1,6 @@
 {
   "request_id": "220704162753_1f7de78b-5dc6-517d-9c09-a7dc7c401d52",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "4a1dc552-417e-4163-a231-ca417f85363d",
     "source_settings": {
@@ -34,5 +34,68 @@
     }
   },
   "created_at": "2022-07-04T16:27:53.072358+00:00",
-  "_signature": "Pz48smwz0qQKe6HX+/KNBpN/ZRBPPqygMcO11jvqpv1JcghKzjg16Qmw8JOSB9FahrU9cNMQSB9zHjzaT3VJAQ=="
+  "finished_at": "2022-07-04T16:28:29.319957+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-04T16:28:29.319754+00:00",
+    "row_count": 585,
+    "current_import_row_count": 585,
+    "size_in_bytes": 13312,
+    "external_id": "01a5627c-0101-50a7-0001-2c9200376172",
+    "columns": [
+      {
+        "field_name": "device",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "search_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "site_url",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "date",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "loaded_at",
+        "data_type": "TIMESTAMP_LTZ",
+        "external_data_type": "TIMESTAMP_LTZ"
+      },
+      {
+        "field_name": "client_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "position",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220704162753_1f7de78b-5dc6-517d-9c09-a7dc7c401d52",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220704162753_1f7de78b-5dc6-517d-9c09-a7dc7c401d52"
+  },
+  "_signature": "u4dM/rLXczyG3sIiNMdvqKZqZzut943pcxVXFtQTpgQFnrLoHVv+dwmAWDNVYp0iMXEqiMjRQ2xqw4go5B++Ag=="
 }
